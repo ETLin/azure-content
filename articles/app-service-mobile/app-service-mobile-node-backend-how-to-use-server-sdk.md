@@ -778,7 +778,7 @@ Azure Mobile Apps SDK implements authentication in the same way for both the tab
 		get: function (req, res, next) {
 			var date = { currentTime: Date.now() };
 			res.status(200).type('application/json').send(date);
-		});
+		}
 	};
 	// All methods must be authenticated.
 	api.access = 'authenticated';
